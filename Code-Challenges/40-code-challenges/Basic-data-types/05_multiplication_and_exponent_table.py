@@ -1,0 +1,28 @@
+print("Welcome to the Multiplication/Exponent Table App")
+
+name = input("Hello, What is your name: ")
+
+number = float(input("What number would you like to work with: "))
+# number = round(number, 2)
+
+print(f"Multiplication Table For {number}")
+print(f"1.0 * {number} =  {1.0 * number}")
+print(f"2.0 * {number} =  {2.0 * number}")
+print(f"3.0 * {number} =  {3.0 * number}")
+print(f"4.0 * {number} =  {4.0 * number}")
+print(f"5.0 * {number} =  {5.0 * number}")
+print(f"6.0 * {number} =  {6.0 * number}")
+print(f"7.0 * {number} =  {7.0 * number}")
+print(f"8.0 * {number} =  {8.0 * number}")
+print(f"9.0 * {number} =  {9.0 * number}")
+
+print(f"Exponent Table For {number}")
+print(f"{number} ** 1 =  {number ** 1}")
+print(f"{number} ** 2 =  {number ** 2}")
+print(f"{number} ** 3 =  {number ** 3}")
+print(f"{number} ** 4 =  {number ** 4}")
+print(f"{number} ** 5 =  {number ** 5}")
+print(f"{number} ** 6 =  {number ** 6}")
+print(f"{number} ** 7 =  {number ** 7}")
+print(f"{number} ** 8 =  {number ** 8}")
+print(f"{number} ** 9 =  {number ** 9}")
